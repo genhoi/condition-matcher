@@ -1,0 +1,25 @@
+{
+    "name": "genhoi/condition-matcher",
+    "description": "Библиотека для работы с условиями",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Matveev",
+            "email": "genhoi25@gmail.com"
+        },
+        {
+            "name": "Evgeniy Glazyrin",
+            "email": "genhoi25@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/log": "^1.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Genhoi": "src/"
+        }
+    }
+}
